@@ -43,6 +43,8 @@ class SuspensionIntegrationTest extends TestCase
             $table->integer('post_id')->unsigned();
             $table->string('body');
             $table->timestamps();
+            $table->softDeletes('suspended_at');
+
         });
 
         $manager->schema()->create('post_types', function ($table) {
