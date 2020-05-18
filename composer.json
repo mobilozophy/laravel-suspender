@@ -1,7 +1,7 @@
 {
   "name": "mobilozophy/laravel-suspender",
-  "description": "Suspends and adds cascading soft deletes to Eloquent models.",
-  "license": "proprietary",
+  "description": "Suspends and adds cascading soft deletes/suspensions to Eloquent models.",
+  "license": "MIT",
   "minimum-stability": "stable",
   "authors": [
     {
