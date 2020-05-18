@@ -41,7 +41,7 @@ class Suspender implements Scope
             return;
         }
 
-        $builder->whereNull($this->suspended_at_col);
+        $builder->whereNull($this->getQualifiedSuspendAtColumn());
     }
 
     /**
