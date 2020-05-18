@@ -22,14 +22,12 @@ trait CascadeSuspensions
     protected static function bootCascadeSuspensions()
     {
         static::suspending(function ($model) {
-            print_r("SUSPENDED EVENT CALLED \n");
             $model->validateCascadingSuspension();
 
             $model->runCascadingSuspension();
         });
 
         static::rescindingSuspension(function ($model) {
-            print_r("RESCINDED SUSPENSION EVENT CALLED \n");
             $model->validateCascadingRestore();
 
             $model->runCascadingRestoresSuspended();
