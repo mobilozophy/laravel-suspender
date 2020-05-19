@@ -188,7 +188,9 @@ trait CascadeSuspensions
     protected function getActiveCascadingRestores()
     {
         return array_filter($this->getCascadingSuspensionRestores(), function ($relationship) {
-            return ! is_null($this->{$relationship}()->onlySuspended());
+            try{
+                return ! is_null($this->{$relationship}()->onlySuspended());
+            } catch (\Exception $e) {}
         });
     }
 }
