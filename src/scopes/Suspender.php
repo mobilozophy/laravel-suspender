@@ -1,6 +1,6 @@
 <?php
 
-namespace mobilozophy\Database\Support\Scopes;
+namespace mobilozophy\Database\Support\scopes;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

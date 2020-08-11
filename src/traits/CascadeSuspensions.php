@@ -1,6 +1,6 @@
 <?php
 
-namespace mobilozophy\Database\Support\Traits;
+namespace mobilozophy\Database\Support\traits;
 
 use LogicException;
 use Illuminate\Support\Str;

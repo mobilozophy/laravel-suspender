@@ -1,6 +1,6 @@
 <?php
 
-namespace mobilozophy\Database\Support\Traits;
+namespace mobilozophy\Database\Support\traits;
 
 
 /**
