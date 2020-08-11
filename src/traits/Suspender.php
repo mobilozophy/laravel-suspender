@@ -17,7 +17,7 @@ trait Suspender
      */
     public static function bootSuspender()
     {
-        static::addGlobalScope(new \mobilozophy\Database\Support\Scopes\Suspender);
+        static::addGlobalScope(new \mobilozophy\Database\Support\scopes\Suspender);
     }
 
     /**

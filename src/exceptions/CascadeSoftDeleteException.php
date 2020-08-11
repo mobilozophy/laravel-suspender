@@ -1,6 +1,6 @@
 <?php
 
-namespace mobilozophy\Database\Support\exceptions;
+namespace mobilozophy\database\support\exceptions;
 
 use Exception;
 use Illuminate\Support\Str;
